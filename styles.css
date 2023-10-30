@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #646464;
+}
+
+#header{
+  height: 93px;
+  background-color: #00B2FF;
+  z-index: 999;
+  border-bottom: 3px solid #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  color: #ffffff;
+}
+
+#paises-box{
+  display: flex;
+  justify-content: center;
+  padding: 50px 0 50px 0;
+}
+
+#paises{
+  max-width: 961px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 29px;
+  row-gap: 50px;
+  
+}
+
+.cartao-pais{
+  width: 301px;
+  height: 250px;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  text-align: center;
+  overflow: hidden;
+}
+
+.nome-pais{
+  font-size: 24px;
+  margin: 15px 0 10px 0;
+}
+
+.tamanho-bandeira{
+  width: 234px;
+  height: 164px;
+}
